@@ -50,7 +50,7 @@ body {
   outline:0;
   padding: 0;
   cursor:pointer;
-  max-width:50px;
+  flex:1;
 }
 
 .player__button:focus {
@@ -82,7 +82,7 @@ body {
 }
 
 .player__controls > * {
-  flex:1;
+  flex:1 1 25px
 }
 
 .progress {
